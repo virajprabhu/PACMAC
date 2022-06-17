@@ -1,4 +1,4 @@
-## PyTorch Implementation of [Adapting Self-Supervised Vision Transformers by Probing Attention-Conditioned Masking Consistency](https://arxiv.org/abs/2206.xxxxx).
+## PyTorch Implementation of [Adapting Self-Supervised Vision Transformers by Probing Attention-Conditioned Masking Consistency](https://arxiv.org/abs/2206.08222).
 ### Viraj Prabhu*, Sriram Yenamandra*, Aaditya Singh, Judy Hoffman
 \* *equal contribution*
 
@@ -7,9 +7,9 @@
 Visual domain adaptation (DA) seeks to transfer trained models to unseen, unlabeled domains across distribution shift, but approaches typically focus on adapting convolutional neural network architectures initialized with supervised ImageNet representations. In this work, we shift focus to adapting modern architectures for object recognition -- the increasingly popular Vision Transformer (ViT) -- initialized with modern pretraining based on self-supervised learning (SSL). Inspired by the design of recent SSL approaches based on learning from partial image inputs generated via masking or cropping -- either by learning to predict the missing pixels, or learning representational invariances to such augmentations -- we propose PACMAC, a two-stage adaptation algorithm for self-supervised ViTs.
 
 ```
-@Article{Prabhu2022Adapting,
+@Article{prabhu2022adapting,
   author  = {Viraj Prabhu and Sriram Yenamandra and Aaditya Singh and Judy Hoffman},
-  journal = {arXiv:2206.xxxxx},
+  journal = {arXiv:2206.08222},
   title   = {Adapting Self-Supervised Vision Transformers by Probing Attention-Conditioned Masking Consistency},
   year    = {2022},
 }
